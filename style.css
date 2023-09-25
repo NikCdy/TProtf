@@ -33,6 +33,34 @@ body {
   align-items: center;
 }
 
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+
+.Logo {
+  font-size: 2em;
+  color: #ff2e63;
+  user-select: none;
+}
+
+.navigation a {
+  position: flex;
+  font-size: 1.5rem;
+  color:#ff2e63;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  padding: auto;
+}
+
 
 #main {
   width: 100%;
@@ -44,9 +72,6 @@ body {
   justify-content: space-around;
   flex-wrap: wrap-reverse;
 }
-
-
-
 
 #main::before {
   content: "";
