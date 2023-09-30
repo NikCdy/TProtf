@@ -264,7 +264,6 @@ body {
 
 .projects {
   width: 100%;
-  /*height: 30em;*/
   padding: 2em;
   position: relative;
   flex-direction: column;
